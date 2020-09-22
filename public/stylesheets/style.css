@@ -1,0 +1,218 @@
+html,
+body,
+#app-container,
+.app-container {
+  height: 100%;
+}
+.app-container svg.outer-icon-fill {
+  fill: white;
+}
+.outer {
+  display: table;
+  position: absolute;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.middle {
+  display: table-cell;
+  vertical-align: top;
+}
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 530px;
+  width: calc(100% - 40px);
+  margin-bottom: 28px;
+  min-width: 320px;
+  min-height: 338px;
+  overflow: hidden;
+}
+.form-container {
+  height: 100%;
+}
+
+.login-form {
+  background: #ffffff;
+}
+.login-form .bx--tooltip__trigger.bx--tooltip--bottom.bx--tooltip--align-center .bx--assistive-text {
+  transform: translate(-80%, 100%);
+}
+.login-form .fields-container {
+  padding: 1rem 0 2.5rem;
+}
+@media (min-width: 42rem) {
+  .login-form .fields-container {
+    padding: 1rem 1rem 2.5rem;
+  }
+}
+.login-form .heading-container {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #c6c6c6;
+}
+.login-form .heading-container .heading {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+  letter-spacing: 0;
+}
+.login-form .heading-container .heading span {
+  font-weight: 600;
+}
+.login-form form .bx--text-input__field-outer-wrapper {
+  width: 100%;
+}
+.login-form form .bx--text-input-wrapper {
+  margin-bottom: 1rem;
+}
+.login-form form .bx--label,
+.login-form form .bx--tooltip__label {
+  font-size: 0.875rem;
+}
+.login-form form .submit-button {
+  width: 100%;
+  max-width: 100%;
+}
+.login-form form .submit-button div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 42rem) {
+  .login-form form .submit-button {
+    height: 4.25rem;
+  }
+}
+@media (min-width: 42rem) {
+  .login-form form .submit-loader {
+    height: 4.25rem;
+  }
+}
+.login-form form .remember-me-wrapper {
+  margin-top: 0.5rem;
+}
+.login-form form .bx--label[for="username"],
+.login-form form .bx--label[for="password"] {
+  width: 100%;
+}
+.login-form form .bx--label[for="username"] .forgot-link,
+.login-form form .bx--label[for="password"] .forgot-link {
+  font-size: 0.75rem;
+  float: right;
+}
+.login-form form .select-field {
+  margin-bottom: 1rem;
+}
+.login-form .body-01 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25em;
+  letter-spacing: 0.16px;
+}
+.login-form .deploy-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+}
+.login-form .deploy-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+}
+.login-form .deploy-url {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375em;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+}
+.login-form .deploy-url-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  letter-spacing: 0.16px;
+  margin-bottom: 1rem;
+  display: flex;
+}
+.login-form .deploy-url-label .deploy-app-title {
+  display: flex;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+@media (min-width: 42rem) {
+  .outer {
+    background-color: #f4f4f4;
+  }
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: top;
+}
+@media (min-width: 42rem) {
+  .middle {
+    vertical-align: middle;
+  }
+}
+
+.login-inner {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 530px;
+  width: calc(100% - 40px);
+  margin-bottom: 28px;
+  min-width: 320px;
+  min-height: 338px;
+  overflow: hidden;
+}
+
+.login-container {
+  height: 100%;
+}
+@media (min-width: 42rem) {
+  .login-container {
+    margin: auto;
+  }
+}
+.login-container > .bx--row {
+  height: 100%;
+}
+.login-container .form-area {
+  height: 100%;
+}
+.login-container .help-link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25em;
+  letter-spacing: 0.16px;
+  padding-top: 1rem;
+}
+.login-container .logo {
+  margin-bottom: 0.5rem;
+}
+.login-container .logo svg.logo {
+  fill: white;
+  width: 64px;
+  height: 64px;
+}

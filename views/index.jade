@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  div.app-container#app-container
+    div.outer
+      div.middle
+        div.inner
+          div.form-container
+            div.bx--row
+              div.form-area.bx--col
+                div.login-form
+                  form(name="sendSMS", method="post" action="/sms/send")
+                    div.fields-container
+                      div.heading-container
+                        h1 Twilio Send SMS
+                      fieldset.bx--fieldset
+                        div.bx--form-item.bx--text-input-wrapper
+                          label.bx--label Phone Number
+                          div.bx--text-input__field-outer-wrapper
+                            input.bx--text-input.bx--text__input(type="text", name="phone")
+                      fieldset.bx--fieldset
+                        div.bx--form-item.bx--text-input-wrapper
+                          label.bx--label Message
+                          div.bx--text-input__field-outer-wrapper
+                            input.bx--text-input.bx--text__input(type="text", name="message")
+                      input.bx--btn.bx--btn--primary(type="submit", value="Send")
